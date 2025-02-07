@@ -1,0 +1,58 @@
+name: ben_ten
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# Version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets section for images and sounds
+  assets:
+    - lib/sounds/ben10_omni_sound.mp3
+    - lib/sounds/omnitrix-transform.mp3
+    - lib/sounds/omnitrix-time-out.mp3
+    - assets/images/ben10_list/ben-10 ultimate alien.png
+    - assets/images/ben10_list/ben10-seceret of the omitirx.png
+    - assets/images/alien/ultimate-alien/
+    - assets/images/alien/alien-name/
+
+  # Fonts section for custom fonts
+  fonts:
+    - family: Orbitron-Black
+      fonts:
+        - asset: assets/fonts/Orbitron-Black.ttf
+    - family: Orbitron-Bold
+      fonts:
+        - asset: assets/fonts/Orbitron-Bold.ttf
+    - family: Orbitron-ExtraBold
+      fonts:
+        - asset: assets/fonts/Orbitron-ExtraBold.ttf
+    - family: Orbitron-Medium
+      fonts:
+        - asset: assets/fonts/Orbitron-Medium.ttf
+    - family: Orbitron-Regular
+      fonts:
+        - asset: assets/fonts/Orbitron-Regular.ttf
+    - family: Orbitron-SemiBold
+      fonts:
+        - asset: assets/fonts/Orbitron-SemiBold.ttf
